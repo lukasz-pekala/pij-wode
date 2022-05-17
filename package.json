@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "format": "prettier --write \"src/**/*.{js,jsx}\""
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "lint:fix": "eslint \"src/**/*.{js,jsx}\" --fix"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,8 @@
   },
   "homepage": "https://github.com/lukasz-pekala/pij-wode#readme",
   "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.6.2"
   }
 }
