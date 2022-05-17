@@ -31,6 +31,8 @@
   },
   "homepage": "https://github.com/lukasz-pekala/pij-wode#readme",
   "devDependencies": {
+    "@babel/preset-react": "^7.17.12",
+    "@babel/preset-typescript": "^7.17.12",
     "@testing-library/react": "^13.2.0",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.4",
