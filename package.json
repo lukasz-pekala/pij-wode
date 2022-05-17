@@ -1,0 +1,29 @@
+{
+  "name": "pij-wode",
+  "version": "1.0.0",
+  "description": "simple app to learn React, TypeScript and other front-emd related technologies",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasz-pekala/pij-wode.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "TypeScript",
+    "mui",
+    "anf",
+    "architektura",
+    "na",
+    "froncie"
+  ],
+  "author": "Łukasz Pękala, Weronika Kurek-Pękala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukasz-pekala/pij-wode/issues"
+  },
+  "homepage": "https://github.com/lukasz-pekala/pij-wode#readme"
+}
