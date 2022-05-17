@@ -4,6 +4,7 @@
   "description": "simple app to learn React, TypeScript and other front-emd related technologies",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel src/index.html",
     "test": "jest",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
@@ -32,6 +33,7 @@
   "devDependencies": {
     "eslint": "^8.15.0",
     "eslint-config-prettier": "^8.5.0",
+    "parcel": "^2.5.0",
     "prettier": "^2.6.2"
   }
 }
