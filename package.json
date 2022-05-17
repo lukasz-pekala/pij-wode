@@ -4,7 +4,8 @@
   "description": "simple app to learn React, TypeScript and other front-emd related technologies",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "format": "prettier --write \"src/**/*.{js,jsx}\""
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/lukasz-pekala/pij-wode/issues"
   },
-  "homepage": "https://github.com/lukasz-pekala/pij-wode#readme"
+  "homepage": "https://github.com/lukasz-pekala/pij-wode#readme",
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
 }
