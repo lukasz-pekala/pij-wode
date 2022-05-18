@@ -1,9 +1,11 @@
 import { createRoot } from "react-dom/client";
+import Ingredient from "./Ingredient";
 
 const App = () => {
   return (
     <div>
       <h1>Pij wodę</h1>
+      <Ingredient name="woda"></Ingredient>
     </div>
   );
 };
