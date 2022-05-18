@@ -1,6 +1,7 @@
 {
   "name": "pij-wode",
   "version": "1.0.0",
+  "private": true,
   "description": "simple app to learn React, TypeScript and other front-emd related technologies",
   "default": "index.html",
   "scripts": {
