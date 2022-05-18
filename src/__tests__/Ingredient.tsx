@@ -9,6 +9,6 @@ import Ingredient from "../Ingredient";
 test("displays Ingredient with its name", async () => {
   const component = render(<Ingredient name="woda" />);
 
-  const pEl: HTMLParagraphElement = await component.findByTestId("name");
+  const pEl = await component.findByTestId("name");
   expect(pEl.innerHTML).toContain("woda");
 });
