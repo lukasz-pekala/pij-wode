@@ -8,8 +8,54 @@
     "prettier"
   ],
   "rules": {
+    "one-var": ["error", "never"],
+    "no-multi-assign": "error",
+    "no-nested-ternary": "warn",
+    "no-unneeded-ternary": "error",
+    "no-else-return": "error",
+    "comma-dangle": ["error", "always-multiline"],
+    "semi": ["error", "always"],
+    "no-restricted-globals": [
+      "error",
+      {
+        "name": "fdescribe",
+        "message": "Do not commit fdescribe. Use describe instead."
+      },
+      {
+        "name": "fit",
+        "message": "Do not commit fit. Use it instead."
+      },
+      {
+        "name": "xit",
+        "message": "Do not commit xit. Use it instead."
+      },
+      {
+        "name": "isNaN",
+        "message": "The global isNaN coerces non-numbers to numbers, returning true for anything that coerces to NaN. If this behavior is desired, make it explicit. Use NumberisNaN instead."
+      },
+      {
+        "name": "isFinite",
+        "message": "Use Number.isFinite instead of global isFinite"
+      }
+    ],
+    "no-new-wrappers": "error",
+    "react/jsx-pascal-case": "error",
+    "react/jsx-boolean-value": "warn",
+    "react/no-array-index-key": "error",
+    "react/no-string-refs": "error",
+    "react/jsx-wrap-multilines": "error",
+    "react/self-closing-comp": [
+      "warn",
+      {
+        "component": true,
+        "html": true
+      }
+    ],
+    "react/jsx-closing-bracket-location": [1, "line-aligned"],
     "react/prop-types": 0,
-    "react/react-in-jsx-scope": 0
+    "react/react-in-jsx-scope": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   },
   "plugins": ["react", "import", "jsx-a11y", "react-hooks"],
   "parserOptions": {
@@ -20,7 +66,7 @@
     }
   },
   "env": {
-    "es6": true,
+    "es2022": true,
     "browser": true,
     "node": true
   },
